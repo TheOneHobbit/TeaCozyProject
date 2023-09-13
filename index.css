@@ -1,0 +1,177 @@
+body {
+    background-color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    opacity: 0.8;
+    color:seashell;
+    text-align: center;
+    max-width: 1300px;
+}
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+figcaption {
+    opacity: 0.9;
+    font-family: helvetica;
+    color: seashell;
+}
+
+h4 a:link, h4 a:visited {
+    color: seashell;
+    transition: ease-out 0.3s;
+    }
+    
+    h4 a:hover {
+    color: rgb(255, 200, 161);
+    font-size: 24px;
+    transition: 0.2s;
+    cursor: pointer;
+    }
+    
+    h5 a:link, h5 a:visited {
+    color: seashell;
+    transition: ease-out 0.3s;
+    }
+    
+    h5 a:hover {
+    color: rgb(255, 200, 161);
+    font-size: 20px;
+    transition: 0.2s;
+    cursor: pointer;
+    }
+
+/*Header and Nav Section*/
+
+.header {
+    background-color: black;
+    height: 69px;
+    width: 1300px;
+    position:fixed;
+    border-bottom: 1px solid seashell;
+    z-index:1;
+    top:0px;
+
+}
+
+img.logo {
+    margin-left:10px;
+    height: 50px;
+    float:left;
+    padding-top:10px;
+    
+}
+
+.nav {
+    float: right;
+}
+
+.nav li {
+    opacity: 0.9;
+    padding-right:20px;
+    display:inline-block;
+}
+
+.nav a {
+    text-decoration: underline;
+    font-family: helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* Main Mission Section*/
+
+.banner {
+    background-color: black;
+    width: 1200px;
+    padding: 10px 0px;
+    line-height: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}   
+
+.main {
+    height: 700px;
+    width: 1200px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1x1t63t*_ga*Mjc2NjA3MDQyNS4xNjkxMDAzNjQz*_ga_3LRZM6TM9L*MTY5NDI1NTI1MC41Ni4xLjE2OTQyNjA1NzcuMC4wLjA.");
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 1200px;
+    margin: 69px 50px 0px 50px;
+    position: relative;
+}
+
+/*Featured Teas Section*/
+
+.featured-tea {
+    width:1000px;
+    margin: 0 auto;
+    padding-top: 60px;
+    letter-spacing: -1px;
+}
+
+.tea1 figure {
+    display: inline-block;
+}
+
+.tea2 figure {
+    display: inline-block;
+}
+
+figcaption {
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin-top: 10px;
+    padding-top: 0px;
+}
+
+figure img {
+    height: 200px;
+    width: 300px;
+}
+
+/*Locations Section*/
+
+.locations-section {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1x1t63t*_ga*Mjc2NjA3MDQyNS4xNjkxMDAzNjQz*_ga_3LRZM6TM9L*MTY5NDI1NTI1MC41Ni4xLjE2OTQyNjA1NzcuMC4wLjA.);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 1200px;
+    max-width: 1200px;
+    position: relative;
+    margin: 25px auto;
+}
+
+.locations {
+    display:inline-block;
+    margin-top: 90px;
+}
+
+.downtown,
+.east-bayside,
+.oakdale {
+    width: 300px;
+    height: 265px;
+    background-color: black;
+    margin: 0 40px;
+    display:inline-block;
+    opacity:0.8;
+}
+
+/*Footer and Sub-Footer*/
+
+.footer {
+    height:200px;
+    width:1300px;
+}
+
+.sub-footer {
+    float:left;
+    margin-left:20px;
+}
