@@ -1,0 +1,1 @@
+This project was a small off-platform project via Codecademy, where a website for a Tea Shop/ Cafe was created using HTML and CSS knowledge to create the basic page, image elements, links to each section of the site, and information you would expect to find on a business' website. 
